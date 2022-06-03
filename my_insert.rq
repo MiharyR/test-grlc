@@ -2,7 +2,7 @@
 #+ endpoint: http://127.0.0.1:8890/sparql
 #+ tags:
 #+   - SPARQL
-#+ method: GET
+#+ method: POST
 
 PREFIX ex: <http://example.org/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
