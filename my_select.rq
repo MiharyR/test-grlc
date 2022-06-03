@@ -1,0 +1,13 @@
+#+ summary: test insert
+#+ endpoint: http://127.0.0.1:8890/sparql
+#+ tags:
+#+   - SPARQL
+#+ method: GET
+
+PREFIX ex: <http://example.org/> 
+
+SELECT ?s ?p ?o
+FROM ex:myGraph
+WHERE {
+    ?s ?p ?o .
+}
