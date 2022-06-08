@@ -1,5 +1,5 @@
 #+ summary: test insert
-#+ endpoint: http://127.0.0.1:8890/sparql
+#+ endpoint: http://129.0.0.1:8890/sparql
 #+ tags:
 #+   - SPARQL
 #+ method: GET
