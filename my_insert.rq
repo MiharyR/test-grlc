@@ -1,3 +1,5 @@
+#+ method: GET
+
 PREFIX ex: <http://example.org/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 
