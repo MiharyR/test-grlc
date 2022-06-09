@@ -1,5 +1,7 @@
 #+ summary: Clear ex:MyGraph
 #+ method: POST
+#+ tags:
+#+   - my first tag
 
 PREFIX ex: <http://example.org/>
 
