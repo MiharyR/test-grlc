@@ -1,7 +1,7 @@
 #+ summary: Delete A and B
 #+ method: POST
 #+ tags:
-#+   - GET_and_POST
+#+   - my first tag
 
 PREFIX ex: <http://example.org/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
