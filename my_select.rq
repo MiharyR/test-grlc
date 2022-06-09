@@ -1,4 +1,4 @@
-#+ summary: Get all triplets in ex:myGraph
+#+ summary: Get all triples from ex:myGraph
 #+ method: GET
 #+ tags:
 #+   - my tag
