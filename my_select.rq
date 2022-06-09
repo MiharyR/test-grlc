@@ -1,5 +1,7 @@
 #+ summary: Get all triplets in ex:myGraph
 #+ method: GET
+#+ tags:
+#+   - my tag
 
 PREFIX ex: <http://example.org/> 
 
