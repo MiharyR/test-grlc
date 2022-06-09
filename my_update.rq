@@ -1,4 +1,4 @@
-#+ summary: Replace "foaf:name" by "foaf:givenName"
+#+ summary: Replace "foaf:name" by "foaf:givenName" in ex:myGraph
 #+ method: POST
 
 PREFIX ex: <http://example.org/>
