@@ -1,4 +1,4 @@
-#+ summary: Insert Ezaka Mihary Harry et Iaina
+#+ summary: Insert A, B, C and D in ex:myGraph
 #+ method: POST
 
 PREFIX ex: <http://example.org/>
@@ -6,9 +6,17 @@ PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 
 INSERT DATA {
     GRAPH ex:myGraph {
-        ex:eza foaf:name "Ezaka" .
-        ex:mih foaf:name "Mihary" .
-        ex:har foaf:name "Harry" .
-        ex:iai foaf:name "Iaina" .
+        
+        ex:ali a foaf:Person ;
+               foaf:name "Alice" .
+        
+        ex:bob a foaf:Person ;
+               foaf:name "Bob" .
+        
+        ex:car a foaf:Person ;
+               foaf:name "Carl" .
+        
+        ex:dyl a foaf:Person ;
+               foaf:name "Dylan" .
     }
 }
