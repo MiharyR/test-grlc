@@ -1,0 +1,6 @@
+#+ summary: Clear ex:MyGraph
+#+ method: POST
+
+PREFIX ex: <http://example.org/>
+
+CLEAR SILENT GRAPH ex:myGraph
