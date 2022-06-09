@@ -1,0 +1,20 @@
+#+ summary: Replace "foaf:name" by "foaf:givenName"
+#+ method: POST
+
+PREFIX ex: <http://example.org/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+DELETE {
+	GRAPH ex:myGraph {
+		?s foaf:name ?name .
+	}
+}
+INSERT {
+	GRAPH ex:myGraph {
+		?s foaf:givenName ?name .
+	}
+}
+WHERE {
+	?s a foaf:Person ;
+        foaf:name ?name .
+}
