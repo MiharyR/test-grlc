@@ -1,5 +1,7 @@
 #+ summary: Replace "foaf:name" by "foaf:givenName" in ex:myGraph
 #+ method: POST
+#+ tags:
+#+   - my tag
 
 PREFIX ex: <http://example.org/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
